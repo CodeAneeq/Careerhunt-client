@@ -1,0 +1,56 @@
+@import 'theme.scss';
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+// avoid bootsrap styles
+.form-control:focus {
+    background-color: transparent !important;
+    border-color    : none !important;
+    outline         : 0;
+    box-shadow      : none !important;
+}
+
+// general styles
+
+// auth title and headings
+.auth_heading {
+    font-size  : 35px;
+    font-weight: 600;
+}
+
+.auth_title {
+    font-size  : 17px;
+    font-weight: 500;
+}
+
+// banner slider
+.bannerSlider {
+    .swiper-pagination {
+        .swiper-pagination-bullet-active {
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            border          : 1px solid white;
+        }
+    }
+}
+
+// profile card slider
+.profileSlider {
+    .swiper-pagination {
+        .swiper-pagination-bullet-active {
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            border          : 1px solid white;
+        }
+    }
+}
+
+.otp-inputs{
+    width: 42px !important;
+    height: 40px !important;
+    font-size: 16px !important;
+}

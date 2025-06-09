@@ -1,0 +1,66 @@
+@import '../../theme.scss';
+
+.sidebar_container{
+  height: 100vh;
+  width: 300px;
+  background-color: $pageBackground;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  transform: translateX(100%);
+  transition: all .3s ease-in-out;
+  box-shadow: -4px 0 6px -1px rgba(0, 0, 0, 0.1);
+
+  &.active{
+    transform: translateX(0%);
+  }
+
+  .close_sidebar_icon{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 30px !important;
+    cursor: pointer;
+  }
+
+  .sidebar_content_container{
+     margin-top: 80px;
+
+
+    .nav_link_container{
+      >ul{
+       list-style: none;
+ 
+       li{
+         margin: 20px 0;
+         font-size: 22px;
+
+         a{
+          display: inline-block;
+          height: 30px;
+          &:hover{
+            border-bottom: 1px solid $dark;
+           }
+         }
+       }
+
+       .profile_img_div{
+        margin-right: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        gap: 30px;
+        >.img{
+            width: 40px;
+            height: 40px;
+            border: 1px solid gray;
+            border-radius: 50%;
+        }
+    }
+      }
+   }
+
+  }
+
+  
+}

@@ -1,0 +1,27 @@
+@import '../../theme.scss';
+
+.button_wrapper{
+  margin-top: 36px;
+  margin-bottom: 15px;
+}
+
+.login_link{
+    text-decoration: none;
+    color: $dark;
+    font-weight: 400;
+    margin-left: 5px;
+    border-bottom: 1px solid $dark;
+}
+
+.forget_password_link{
+    text-decoration: none;
+    color: $primaryColor;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.role_btns{
+  .label_one{
+    margin-right: 20px;
+  }
+}

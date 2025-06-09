@@ -1,0 +1,36 @@
+// category slider
+@import '../../theme.scss';
+
+.swiper_button_container{
+  margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -40px;
+
+      @media (max-width: 400px) {
+    margin-top: 60px;
+    }
+}
+
+.nav_btn{
+    width: 45px;
+    height: 45px;
+    background-color: $ligthGrey2;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+  .items{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+
+    @media (max-width: 560px) {
+      width: 100%;
+      justify-content: center;
+    }
+  }

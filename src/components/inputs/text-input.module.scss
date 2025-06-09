@@ -1,0 +1,29 @@
+@import '../../theme.scss';
+
+.input_container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $darkGray;
+    width: 100%;
+
+    > span {
+        width: 40px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .input_field {
+        flex: 1;
+
+        input {
+            border: none;
+            outline: none;
+            width: 97%;
+            background-color: transparent;
+        }
+    }
+}
+
+.input_err {
+    color: $primaryColor;
+}

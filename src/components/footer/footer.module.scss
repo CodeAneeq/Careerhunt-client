@@ -1,0 +1,52 @@
+@import "../../theme.scss";
+
+.footer_container {
+  background-color: $dark;
+  color           : $darkGray;
+  text-align      : center;
+  padding         : 10px;
+
+  p{
+    font-size: 10px;
+  }
+
+  li{
+    list-style: none;
+    cursor: pointer;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  .figure_one{
+    display: flex;
+    justify-content: end;
+    .qr_code{
+      @media screen and (max-width: 768px) {
+        width: 80px;;
+      }
+    }
+  }
+
+  .figure_two{
+    .store{
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+      @media screen and (max-width: 1000px) {
+        height: 40px !important;
+      }
+      @media screen and (max-width: 768px) {
+        height: 40px !important;
+        width: 100px;
+      }
+    }
+  }
+
+  .icon_div{
+    color: white;
+    display: flex;
+    gap: 20px;
+  }
+}

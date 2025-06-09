@@ -1,0 +1,13 @@
+@import '../../theme.scss';
+
+.contact_input_container{
+    width: 100%;
+    input{
+        height: 50px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: $ligthGrey2;
+        border: none;
+    }
+}

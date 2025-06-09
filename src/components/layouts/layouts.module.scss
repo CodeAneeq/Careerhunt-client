@@ -1,0 +1,51 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 0 20px; // Optional
+}
+
+
+.auth_banner_img {
+  min-height: 80vh;
+  width     : 100%;
+  object-fit: cover;
+}
+
+.form_wrapper {
+  min-height     : 80vh;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+}
+
+//
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  // height: 100vh;
+  width: 100%;
+}
+
+.navbar {
+  position: relative;
+  height: 70px;
+}
+
+.footer {
+  flex-shrink: 0;
+  height: 200px; // or whatever your Footer's height is
+}
+
+.scrollArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+  padding: 1rem;
+}

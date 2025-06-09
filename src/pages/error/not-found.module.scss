@@ -1,0 +1,38 @@
+@import '../../theme.scss';
+
+.error_page_container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    .main_content{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1{
+            font-size: 110px;
+            color: $dark;
+            margin-bottom: 30px;
+
+            @media screen and (max-width: 1000px) {
+                font-size: 70px;
+            }
+            @media screen and (max-width: 510px) {
+                font-size: 40px;
+            }
+        }
+
+        p{
+            @media screen and (max-width: 510px) {
+                font-size: 10px;
+            }
+        }
+
+        .btn_div{
+            margin-top: 50px;
+            width: 250px;
+        }
+    }
+}

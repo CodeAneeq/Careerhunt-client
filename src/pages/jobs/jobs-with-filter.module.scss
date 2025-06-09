@@ -1,0 +1,60 @@
+.filter_page_container{
+    display: flex;
+    @media (max-width: 500px) {
+        display: block;
+    }
+
+    .job_container{
+        width: 100%;
+        display: flex;
+        // align-items: center;
+        flex-direction: column;
+        margin: 50px 30px;
+
+        @media (max-width: 500px) {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .btns{
+            width: 40%;
+            gap: 20px;
+            display: flex;
+
+            @media (max-width: 850px) {
+                width: 60%;
+            }
+            @media (max-width: 650px) {
+                width: 80%;
+            }
+            @media (max-width: 540px) {
+                width: 100%;
+            }
+        }
+
+
+       .jobs {
+          margin-top: 40px;
+          display: flex;
+          gap: 30px;
+          flex-wrap: wrap;
+        //   justify-content: center;
+    
+          @media (max-width: 768px) {
+            justify-content: space-between;
+            gap: 15px !important;
+          }
+
+          @media (max-width: 950px) {
+          justify-content: center;
+        }
+        }
+    
+        @media (max-width: 560px) {
+          width: 100%;
+          justify-content: center !important;
+          align-items: center !important;
+        }
+      
+    }
+}

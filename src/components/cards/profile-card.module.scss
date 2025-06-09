@@ -1,0 +1,109 @@
+.profileCard {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//   max-width: 700px;
+  margin: auto;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.details {
+  flex: 1;
+  min-width: 250px;
+}
+
+.details h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.details p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.contact p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.skills {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  >div{
+    display: flex;
+    gap: 10px
+  }
+}
+
+.skills span {
+  background: #1f1f1f;
+  color: white;
+  font-size: 0.75rem;
+  padding: 4px 15px;
+  border-radius: 12px;
+}
+
+.resume {
+  margin-top: 10px;
+  font-size: 0.85rem;
+}
+
+.resume a {
+  margin-left: 5px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.resume a:hover {
+  text-decoration: underline;
+}
+
+.editIcon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+// @media (max-width: 600px) {
+//   .header {
+//     flex-direction: column;
+//     align-items: center;
+//     text-align: center;
+//   }
+
+//   .details {
+//     align-items: center;
+//   }
+
+//   .editIcon {
+//     top: 10px;
+//     right: 10px;
+//   }
+// }
