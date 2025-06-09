@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import  Loader  from "../components/loader/loader";
 
-const HomePage = lazy(()=> import("../pages/home/Home"));
+const HomePage = lazy(()=> import("../pages/home/home"));
 const LoginPage = lazy(() => import("../pages/auth/login"));
 const CategoryJobsPage = lazy(()=> import("../pages/category-jobs/category-jobs"));
 const SignUpPage = lazy(() => import("../pages/auth/signup"));
