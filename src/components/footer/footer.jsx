@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <span>&copy; Copyright CodeAneeq 2022. All right reserved</span>
+      <span>&copy; Copyright CareerHunt 2025. All right reserved</span>
     </footer>
   )
 }
