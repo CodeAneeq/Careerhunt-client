@@ -1,12 +1,44 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## ✅ Career Hunt - Job Portal - Frontend (`careerhunt-frontend`)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Career Hunt - Job Portal - Frontend
 
-## Expanding the ESLint configuration
+This is the **frontend part of the Career Hunt Job Portal**, built using **React.js**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- React Router
+- Axios
+- SCSS / CSS
+- Context API / Redux (if used)
+
+---
+
+## 📸 Features
+
+- Job Listings
+- Job Details Page
+- User Registration / Login UI
+- Apply Job Form UI
+- Responsive Design
+
+---
+
+## 📂 Backend Repository
+
+👉 [Career Hunt - Backend](https://github.com/CodeAneeq/careerhunt-server)
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/CodeAneeq/careerhunt-frontend.git
+cd careerhunt-frontend
+npm install
+npm start
